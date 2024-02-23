@@ -10,9 +10,13 @@ body{
     background-color: pink; 
     align-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 .pic{
-    width: 140px;
+    width: 170px;
+    align-self: center;
     border-radius: 50%;
 	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
 	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
