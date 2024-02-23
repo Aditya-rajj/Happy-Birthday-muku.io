@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .pic{
     width: 170px;
