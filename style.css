@@ -6,7 +6,7 @@ img{
     border-radius: 20px;
     margin-top: 15px;
 }
-.memories section{
+section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,8 +64,6 @@ body{
     
 audio{
     align-self: center;
-    width: 80%;
-    visibility: 80%;
 }
 
 /* ----------------------------------------------
