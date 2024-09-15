@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5dc; /* Beige background color */
+    color: #333; /* Dark text color for contrast */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.birthday-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.greeting {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.image-gallery {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    padding: 20px 0;
+    gap: 10px;
+    scroll-snap-type: x mandatory; /* Snap to images on scroll */
+    width: 100%;
+}
+
+.image-item {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start; /* Align images to start when scrolling */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #lightblue;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f5a623;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#specialMessage {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
